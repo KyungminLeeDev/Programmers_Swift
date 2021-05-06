@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
+/// [위장](https://programmers.co.kr/learn/courses/30/lessons/42578
 struct LV2_위장 {
     func solution(_ clothes:[[String]]) -> Int {
         var dic = [String: Int]()
