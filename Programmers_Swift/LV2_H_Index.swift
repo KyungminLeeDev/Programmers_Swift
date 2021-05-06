@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 struct LV2_H_Index {
     func solution(_ citations:[Int]) -> Int {
         let max = citations.max()!

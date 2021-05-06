@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 struct LV2_프린터 {
     func solution(_ priorities:[Int], _ location:Int) -> Int {
         var queue = Array(repeating: 0, count: priorities.count)
