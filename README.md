@@ -26,3 +26,10 @@
 | 42478 | 1  | [K번째수](./Programmers_Swift/P42748.swift)        |
 |       | 2  | 가장 큰 수                                         |
 |       | 2  | H-Index                                            |
+
+## [코딩테스트 고득점 Kit](https://programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
+
+| 유형    | 문제 |
+| ------- | ---- |
+| 해시    | LV1 ~~위장~~ Swift 미지원 <br> LV2 ~~전화번호 목록~~ Swift 미지원 <br> LV2 [위장](./Programmers_Swift/LV2_위장.swift) |
+| 스택/큐 | LV2 [다리를 지나는 트럭](./Programmers_Swift/LV2_다리를지나는트럭.swift) <br> LV2 ~~주식가격~~ Swift 미지원 <br> LV2 [기능개발](./Programmers_Swift/LV2_기능개발.swift) <br> LV2 [프린터](./Programmers_Swift/LV2_프린터.swift) |
