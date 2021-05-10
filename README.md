@@ -6,8 +6,8 @@
 
 ## Index
 
-- [코딩테스트 고득점 Kit](#코딩테스트_고득점_Kit)
-- [2019 KAKAO BLIND RECRUITMENT](#2019_KAKAO_BLIND_RECRUITMENT)
+- [코딩테스트 고득점 Kit](#코딩테스트-고득점-Kit)
+- [2019 KAKAO BLIND RECRUITMENT](#2019-KAKAO-BLIND-RECRUITMENT)
 - [연습문제](#연습문제)
 
 
