@@ -16,12 +16,12 @@ struct LV2_오픈채팅방 {
         
         for message in record {
             // 공백 기준으로 문자열 나누기
-            let temp = message.split(separator: " ")
-            let command = String(temp[0])
-            let uid = String(temp[1])
+            let temp = message.components(separatedBy: " ")
+            let command = temp[0]
+            let uid = temp[1]
             
             if temp.count - 1 >= 2 {
-                let nickname = String(temp[2])
+                let nickname = temp[2]
                 dic.updateValue(nickname, forKey: uid)
             }
             
@@ -32,9 +32,9 @@ struct LV2_오픈채팅방 {
         
         var result = [String]()
         for message in messages {
-            let temp = message.split(separator: " ")
-            let command = String(temp[0])
-            let uid = String(temp[1])
+            let temp = message.components(separatedBy: " ")
+            let command = temp[0]
+            let uid = temp[1]
             let nickname = dic[uid]!
             var str = "\(nickname)님이 "
             
