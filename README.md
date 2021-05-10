@@ -49,7 +49,7 @@
 | 1  | [가운데 글자 가져오기](./Programmers_Swift/LV1_가운데글자가져오기.swift)              | 2021.04.23 |
 | 1  | [문자열 내 마음대로 정렬하기](./Programmers_Swift/LV1_문자열내마음대로정렬하기.swift) | 2021.05.07 |
 | 1  | [문자열 내 p와 y의 개수](./Programmers_Swift/LV1_문자열내p와y의개수.swift)            | 2021.05.07 |
-| 1  | [문자열 내림차순으로 배치하기](./Programmers_Swift/LV1_문자열내림차순으로배치하기.swift)  | 2021.05.10 [Bam스터디] |
+| 1  | [문자열 내림차순으로 배치하기](./Programmers_Swift/LV1_문자열내림차순으로배치하기.swift) | 2021.05.10 [Bam스터디] |
 | 1  | [문자열 다루기 기본](./Programmers_Swift/LV1_문자열다루기기본.swift)                  | 2021.05.07 |
 | 1  | [서울에서 김서방 찾기](./Programmers_Swift/LV1_서울에서김서방찾기.swift)              | 2021.05.07 |
 | 1  | [수박수박수박수박수박수?](./Programmers_Swift/LV1_수박수박수.swift)                   | 2021.05.08 |
