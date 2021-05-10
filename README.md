@@ -4,6 +4,14 @@
 
 - Unit Test로 테스트케이스 검증
 
+## Index
+
+- [코딩테스트 고득점 Kit](#코딩테스트_고득점_Kit)
+- [2019 KAKAO BLIND RECRUITMENT](#2019_KAKAO_BLIND_RECRUITMENT)
+- [연습문제](#연습문제)
+
+
+
 ## 코딩테스트 고득점 Kit
 
 | 유형          | LV | 문제                                                                 | 메모 |
