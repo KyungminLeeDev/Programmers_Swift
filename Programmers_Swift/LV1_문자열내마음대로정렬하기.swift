@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// [문자열 내 마음대로 정렬하기]
+/// [문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)
 struct LV1_문자열내마음대로정렬하기 {
     func solution(_ strings:[String], _ n:Int) -> [String] {
         let arr = strings.sorted() // 미리 사전순으로 정렬
