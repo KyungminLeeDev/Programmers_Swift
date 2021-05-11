@@ -61,3 +61,4 @@
 | 1  | [문자열 다루기 기본](./Programmers_Swift/LV1_문자열다루기기본.swift)                  | 2021.05.07 |
 | 1  | [서울에서 김서방 찾기](./Programmers_Swift/LV1_서울에서김서방찾기.swift)              | 2021.05.07 |
 | 1  | [수박수박수박수박수박수?](./Programmers_Swift/LV1_수박수박수.swift)                   | 2021.05.08 |
+| 2  | [N개의 최소공배수](./Programmers_Swift/LV2_N개의최소공배수.swift)                     | 2021.05.11 [Bam스터디] |
