@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
 struct LV2_뉴스클러스터링 {
     func chopString(_ str: String) -> [String] {
         let arr = Array(str.uppercased())
