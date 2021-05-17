@@ -44,13 +44,13 @@ struct LV2_뉴스클러스터링 {
     
     
     func solution(_ str1:String, _ str2:String) -> Int {
-        let a = chopString(str1)
-        let b = chopString(str2)
-        let inter = intersecion(a, b).count
-        let uni = union(a, b).count
+//        let a = chopString(str1)
+//        let b = chopString(str2)
+//        let inter = intersecion(a, b).count
+//        let uni = union(a, b).count
+//
+//        let result = Int((inter / uni) * 65536)
         
-        let result = Int((inter / uni) * 65536)
-        
-        return result
+        return 1
     }
 }
