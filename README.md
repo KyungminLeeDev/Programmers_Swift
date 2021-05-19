@@ -1,13 +1,20 @@
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKyungminLeeDev%2FProgrammers_Swift)](https://hits.seeyoufarm.com)
-
 # 프로그래머스 Swift 풀이
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKyungminLeeDev%2FProgrammers_Swift)](https://hits.seeyoufarm.com)
+
 - Unit Test로 테스트케이스 검증
+
+
 
 ## Index
 
 - [코딩테스트 고득점 Kit](#코딩테스트-고득점-Kit)
 - [2019 KAKAO BLIND RECRUITMENT](#2019-KAKAO-BLIND-RECRUITMENT)
+- [2018 KAKAO BLIND RECRUITMENT](#2018-KAKAO-BLIND-RECRUITMENT)
+- [2020 카카오 인턴십](#2020-카카오-인턴십)
+- [2019 카카오 개발자 겨울 인턴십](#2019-카카오-개발자-겨울-인턴십)
+- [월간 코드 챌린지 시즌2](#월간-코드-챌린지-시즌2)
+- [월간 코드 챌린지 시즌1](#월간-코드-챌린지-시즌1)
 - [연습문제](#연습문제)
 
 
@@ -36,22 +43,6 @@
 
 
 
-## 2020 카카오 인턴십
-
-| LV | 문제                                                                 | 메모 |
-| -- | :------------------------------------------------------------------- | :--- |
-| 1  | [키패드 누르기](./Programmers_Swift/LV1_키패드누르기.swift)          | 2021.05.07 벼락스터디 |
-| 2  | 수식 최대화                                                          |  |
-
-
-
-## 2019 카카오 개발자 겨울 인턴십
-
-| LV | 문제                                                                 | 메모 |
-| -- | :------------------------------------------------------------------- | :--- |
-| 1  | [크레인 인형뽑기 게임](./Programmers_Swift/LV1_크레인인형뽑기게임.swift) | 2021.05.07 벼락스터디 |
-| 2  | [튜플](./Programmers_Swift/LV2_튜플.swift)                           | 2021.05.17 Bam스터디 |
-
 
 
 ## 2019 KAKAO BLIND RECRUITMENT
@@ -76,11 +67,37 @@
 
 
 
+## 2020 카카오 인턴십
+
+| LV | 문제                                                                 | 메모 |
+| -- | :------------------------------------------------------------------- | :--- |
+| 1  | [키패드 누르기](./Programmers_Swift/LV1_키패드누르기.swift)          | 2021.05.07 벼락스터디 |
+| 2  | 수식 최대화                                                          |  |
+
+
+
+## 2019 카카오 개발자 겨울 인턴십
+
+| LV | 문제                                                                 | 메모 |
+| -- | :------------------------------------------------------------------- | :--- |
+| 1  | [크레인 인형뽑기 게임](./Programmers_Swift/LV1_크레인인형뽑기게임.swift) | 2021.05.07 벼락스터디 |
+| 2  | [튜플](./Programmers_Swift/LV2_튜플.swift)                           | 2021.05.17 Bam스터디 |
+
+
+
 ## 월간 코드 챌린지 시즌2
 
 | LV | 문제                                                                 | 메모 |
 | -- | :------------------------------------------------------------------- | :--- |
 | 1  | [음양 더하기](./Programmers_Swift/LV1_음양더하기.swift)      | 2021.05.18 Bam스터디 |
+
+
+
+## 월간 코드 챌린지 시즌1
+
+| LV | 문제                                                                 | 메모 |
+| -- | :------------------------------------------------------------------- | :--- |
+| 1  | [내적](./Programmers_Swift/LV1_내적.swift)      | 2021.05.19 Bam스터디 |
 
 
 
