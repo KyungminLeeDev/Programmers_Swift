@@ -55,12 +55,10 @@ struct LV1_키패드누르기 {
             case 1, 4, 7:
                 LH = n
                 result += "L"
-                break
                 
             case 3, 6, 9:
                 RH = n
                 result += "R"
-                break
                 
             default:
                 let countLH = countKeypad(LH, n)
@@ -75,7 +73,7 @@ struct LV1_키패드누르기 {
                         RH = n
                         result += "R"
                     }
-                    break
+                    continue
                 }
                 
                 // 가까운 손으로 누름
@@ -86,7 +84,6 @@ struct LV1_키패드누르기 {
                     RH = n
                     result += "R"
                 }
-                break
             }
         }
         
