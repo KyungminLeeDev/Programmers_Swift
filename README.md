@@ -115,3 +115,9 @@
 | 1  | [수박수박수박수박수박수?](./Programmers_Swift/LV1_수박수박수.swift)                   | 2021.05.08 |
 | 2  | [N개의 최소공배수](./Programmers_Swift/LV2_N개의최소공배수.swift)                     | 2021.05.11 Bam스터디 |
 | 2  | [피보나치 수](./Programmers_Swift/LV2_피보나치수.swift)                               | 2021.05.20 Bam스터디 |
+
+## Other
+
+| LV | 문제                                                                                  | 메모 |
+| -- | :------------------------------------------------------------------------------------ | :--- |
+| 1  | [그린의 면접 복기 문제 - 패턴매칭](./Programmers_Swift/Green_PatternMatching.swift) [문제](./Programmers_Swift/Green_PatternMatching.md)  | 2021.06.02 Bam스터디 |
