@@ -31,7 +31,7 @@
 |               | 2  | [다리를 지나는 트럭](./Programmers_Swift/LV2_다리를지나는트럭.swift) | 2021.05.05 벼락스터디 |
 |               | 2  | ~~주식가격~~                                                         | Swift 미지원 |
 | **정렬**      | 1  | [K번째수](./Programmers_Swift/LV1_K번째수.swift)                     | 2021.05.03 벼락스터디, 2021.11.13 재풀이 |
-|               | 2  | [가장 큰 수](./Programmers_Swift/LV2_가장큰수.swift)                 | 2021.05.04 벼락스터디, 2021.11.13 재풀이  |
+|               | 2  | [가장 큰 수](./Programmers_Swift/LV2_가장큰수.swift)                 | 2021.05.04 벼락스터디, 2021.11.13 재풀이 |
 |               | 2  | [H-Index](./Programmers_Swift/LV2_H_Index.swift)                     | 2021.05.04 벼락스터디 |
 | **완전탐색**  | 1  | [모의고사](./Programmers_Swift/LV1_모의고사.swift)                   | 2021.05.03 벼락스터디 |
 |               | 2  | 소수 찾기                                                            | 2021.05.06 벼락스터디 X |
