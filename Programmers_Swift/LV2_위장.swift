@@ -6,33 +6,85 @@
 //
 
 import Foundation
+import XCTest
 
-/// [위장](https://programmers.co.kr/learn/courses/30/lessons/42578
+/// [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
+/// 키 포인트
+/// - 의상 종류의 경우의 수는 각 한번씩 입는 경우 + 안입는 경우 이므로 `의상의 수 + 1`
+/// - 딕셔너리로 의상 종류별 의상 수를 기록
+/// - 전체 경우의 수: 모든 의상 종류의 경우의 수를 곱한 값 - 1(아무것도 안입은 경우)
 struct LV2_위장 {
     func solution(_ clothes:[[String]]) -> Int {
-        var dic = [String: Int]()
+        var dic = [String:Int]()
         
-        for cloth in clothes {
-            // 의상 종류를 딕셔너리의 key로 사용
-            let key = cloth[1]
+        for clothe in clothes {
+            // 의상 종류만 사용
+            let type = clothe[1]
             
-            // 이미 의상 종류가 있으면 +1
-            if let value = dic[key] {
-                dic[key] = value + 1
+            // 의상 종류를 디셔너리의 키 값으로 해서 종류별 의상 수 기록
+            if let count = dic[type] {
+                dic[type] = count + 1
             } else {
-                // 아니면 1로 셋팅
-                dic[key] = 1
+                dic[type] = 1
             }
         }
         
         var result = 1
-        // 종류별 경우의 수는 의상 종류의수 + 1이다 (의상의 수 + 안입는 경우)
-        // 전체 경우의 수는 모든 경우의 수를 곱함
+        // 모든 경우의 수 곱하기
         for (_, v) in dic {
-            result *= (v + 1)
+            result *= (v + 1) // 의상 종류의 수 + 안입는 경우 1
         }
         
-        // 아무것도 입지 않는 경우는 빼기
+        // 모든 경우의 수에서 아무것도 안입는 경우 1 빼기
         return result - 1
+    }
+}
+
+class LV2_위장_Tests: XCTestCase {
+    private struct TestCase {
+        let clothes: [[String]]
+        let output: Int
+    }
+    
+    private var sut: LV2_위장!
+    private var testCase: TestCase!
+    
+    override func setUpWithError() throws {
+        try super.setUpWithError()
+        sut = LV2_위장()
+    }
+    
+    override func tearDownWithError() throws {
+        sut = nil
+        testCase = nil
+        try super.tearDownWithError()
+    }
+    
+    func testCase1() {
+        // 1. given
+        testCase = TestCase(clothes: [["yellowhat", "headgear"],
+                                      ["bluesunglasses", "eyewear"],
+                                      ["green_turban", "headgear"]],
+                            output: 5)
+        
+        // 2. when
+        let output = sut.solution(testCase.clothes)
+        
+        // 3. then
+        XCTAssertEqual(output, testCase.output)
+    }
+    
+    func testCase2() {
+        // 1. given
+        testCase = TestCase(clothes: [["crowmask", "face"],
+                                      ["bluesunglasses", "face"],
+                                      ["smoky_makeup", "face"]],
+                            output: 3)
+        
+        // 2. when
+        let output = sut.solution(testCase.clothes)
+        
+        // 3. then
+        XCTAssertEqual(output, testCase.output)
     }
 }
