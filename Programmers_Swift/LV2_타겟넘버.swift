@@ -10,6 +10,7 @@ import XCTest
 
 /// [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
 /// - DFS
+/// - [풀이 참고](https://leechamin.tistory.com/468)
 struct LV2_타겟넘버 {
     func dfs(_ numbers: [Int], _ target: Int, _ index: Int, _ sum: Int) -> Int {
         if index == numbers.count {
