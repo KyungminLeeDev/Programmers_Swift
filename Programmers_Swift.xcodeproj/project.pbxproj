@@ -94,6 +94,8 @@
 		56F59D842645522800BE23DA /* LV1_문자열다루기기본.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F59D832645522800BE23DA /* LV1_문자열다루기기본.swift */; };
 		56F59D852645522800BE23DA /* LV1_문자열다루기기본.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F59D832645522800BE23DA /* LV1_문자열다루기기본.swift */; };
 		56F59D892645529800BE23DA /* LV1_문자열다루기기본_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F59D882645529700BE23DA /* LV1_문자열다루기기본_Tests.swift */; };
+		56FF7BE82740BF62008D7F89 /* LV3_네트워크.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FF7BE72740BF62008D7F89 /* LV3_네트워크.swift */; };
+		56FF7BE92740BF62008D7F89 /* LV3_네트워크.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FF7BE72740BF62008D7F89 /* LV3_네트워크.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -170,6 +172,7 @@
 		56F59D7F26454D0400BE23DA /* LV1_문자열내림차순으로배치하기_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LV1_문자열내림차순으로배치하기_Tests.swift"; sourceTree = "<group>"; };
 		56F59D832645522800BE23DA /* LV1_문자열다루기기본.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LV1_문자열다루기기본.swift"; sourceTree = "<group>"; };
 		56F59D882645529700BE23DA /* LV1_문자열다루기기본_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LV1_문자열다루기기본_Tests.swift"; sourceTree = "<group>"; };
+		56FF7BE72740BF62008D7F89 /* LV3_네트워크.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LV3_네트워크.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -459,6 +462,7 @@
 			isa = PBXGroup;
 			children = (
 				56CE5BE4273FF3BC001BC250 /* LV2_타겟넘버.swift */,
+				56FF7BE72740BF62008D7F89 /* LV3_네트워크.swift */,
 			);
 			name = DFS_BFS;
 			sourceTree = "<group>";
@@ -594,6 +598,7 @@
 				564678052651FBC30068CAC1 /* LV2_튜플.swift in Sources */,
 				560BD821264B639F00CE47A3 /* LV2_뉴스클러스터링.swift in Sources */,
 				569BC3B226549FA500BC1F6C /* LV1_내적.swift in Sources */,
+				56FF7BE82740BF62008D7F89 /* LV3_네트워크.swift in Sources */,
 				56CA082326569A16002DA9DC /* LV2_피보나치수.swift in Sources */,
 				56A09F4E26719D7D002C834F /* LV2_큰수만들기.swift in Sources */,
 				56D202E0264555B10027956B /* LV1_서울에서김서방찾기.swift in Sources */,
@@ -632,6 +637,7 @@
 				56F59D752645496F00BE23DA /* LV1_문자열내p와y의개수_Tests.swift in Sources */,
 				56D202FC2645B4760027956B /* LV1_키패드누르기.swift in Sources */,
 				56F0BF5F2665C0E600CBDC93 /* LV2_압축_Tests.swift in Sources */,
+				56FF7BE92740BF62008D7F89 /* LV3_네트워크.swift in Sources */,
 				56CA082826569A4B002DA9DC /* LV2_피보나치수_Tests.swift in Sources */,
 				56A09F4F26719D7D002C834F /* LV2_큰수만들기.swift in Sources */,
 				561D196E2632D0A000D2DD33 /* LV1_가운데글자가져오기.swift in Sources */,
